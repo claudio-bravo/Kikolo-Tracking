@@ -1,0 +1,81 @@
+.section {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        text-align: center;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-family: 'Lato', sans-serif;
+        margin: 2rem 0;
+    }
+    .main {
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        background: #E4E6EB;
+        padding: 2rem 5rem;
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 60%;
+            height: 3rem;
+            input {
+                width: 100%;
+                background: white;
+                padding: 0 0 0 1rem;
+                border-radius: 8px 0px 0px 8px;
+            }
+            ::placeholder {
+                font-size: 14px;
+                color: black;
+            }
+            button {
+                width: max-content;
+                background: #FF9900;
+                color: white;
+                text-transform: uppercase;
+                padding: 0 1rem;
+                border-radius: 0px 8px 8px 0px;
+                font-weight: bold;
+            }
+        }
+    }
+    @media screen and (max-width: 818px) {
+        .main {
+            .container {
+                max-width: 100%;
+            }
+        }  
+    }
+
+    @media screen and (max-width: 650px) {
+        .title {
+            font-size: 1.2rem;
+        }
+        .main {
+            height: auto;
+            padding: 3rem 1rem;
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 90%;
+                gap: 25px;
+                input {
+                    width: 100%;
+                    background: white;
+                    padding: 1rem 0 1rem 1rem;
+                    border-radius: 8px;
+                }
+                button {
+                    padding: 12px 35px;
+                    border-radius: 8px;
+                }
+
+            }
+        }
+    }
+}

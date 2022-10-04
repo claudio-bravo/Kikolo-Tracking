@@ -1,0 +1,54 @@
+html,
+#root,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex: 1 1;
+  min-height: 100%;
+  flex-direction: column;
+  width: 100%;
+  background: white;
+  
+  position: relative;
+}
+
+button{
+  cursor: pointer;
+}
+
+:root {
+  --color-black : #050505
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+#containerMain {
+  max-width: 80rem;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d4d57;
+  border-radius: 15px;
+}

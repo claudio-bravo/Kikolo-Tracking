@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(90deg, #fc0 0, #fc0 48%, #ffe57f 70%, #fff0b2);
+    margin-bottom: 20px;
+
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 1rem;
+
+        .content {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+           a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+
+            .textK {
+                font-size: 2rem;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                color: white;
+                padding-top: 10px;
+            }
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+           }
+
+            .login {
+                display: flex;
+                justify-content: center;
+                width: max-content;
+                height: max-content;
+                padding: 8px 20px;
+                background: #FF9900;
+                border-radius: 10px;
+                gap: 5px;
+                cursor: pointer;
+
+                transition: all 100ms ease;
+
+                &:hover {
+                    box-shadow: 0 0 0 2px #ffffff;
+                }
+
+                span {
+                    font-size: 16px;
+                    color: white;
+                    font-family: 'Comfortaa', sans-serif;
+                    letter-spacing: 2px;
+
+                    strong {
+                        font-family: 'Indie Flower', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .container {
+            width: 100%;
+        }
+    }
+
+    @media  (max-width:500px) {
+        .content {
+            img {
+            width: 40px !important;
+            height: 40px !important;
+            }
+        }
+        .login {
+            padding: 6px 15px !important;
+            font-size: 10px !important;
+            span {
+                font-size: 14px !important;
+            }
+        }
+        .textK {
+            display: none;
+            visibility: hidden;
+        }
+    }
+}
