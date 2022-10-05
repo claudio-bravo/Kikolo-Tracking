@@ -1,4 +1,5 @@
 import styled from "./styles.module.scss";
+import { TrackingHistory } from "./trackingHistory";
 
 export function Main() {
   return (
@@ -12,6 +13,7 @@ export function Main() {
           </button>
         </div>
       </main>
+      <TrackingHistory />
     </section>
   );
 }

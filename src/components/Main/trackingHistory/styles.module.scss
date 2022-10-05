@@ -1,0 +1,68 @@
+.trackingHistory {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    margin-top: 2.8rem;
+    padding: 2rem 1rem;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+
+    .content {
+        width: 100%;
+        max-width: 891px;
+        padding: 1.75rem;
+        background: white;
+        border: 0.1rem solid #8c8c8c;
+        border-radius: 0.4rem;
+        position: relative;
+        line-height: 2.1rem;
+        h1 {
+            font-size: 20px;
+        }
+
+        .tracking {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            padding-left: 1rem;
+            border-bottom: 1px solid #8c8c8c;
+            border-left: 1px solid #8c8c8c;
+
+            .delivered {
+                font-weight: bold;
+                color: #67a31d;
+            }
+            .place {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .moreDescription {
+                display: flex;
+                flex-direction: column;
+
+                .time {
+                    margin-top: 10px;
+                    color: #8c8c8c;
+                }
+            }
+
+            .trackingContent {
+                .textBold {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        text-align: center;
+        span, .place {
+            font-size: 14px;
+        }
+        h1, .textBold {
+            font-size: 16px;
+        } 
+    }     
+}
