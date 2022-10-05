@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
     height: max-content;
+    align-items: center;
     margin-top: 2.8rem;
+    width: 100%;
     padding: 2rem 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
 
     .content {

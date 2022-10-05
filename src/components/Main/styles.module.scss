@@ -1,6 +1,8 @@
 .section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: auto;
 
     .title {
@@ -12,11 +14,12 @@
         margin: 2rem 0;
     }
     .main {
+        width: 100%;
         height: max-content;
         display: flex;
         justify-content: center;
         background: #E4E6EB;
-        padding: 2rem 5rem;
+        padding: 2rem 0;
         .container {
             display: flex;
             width: 100%;
@@ -57,7 +60,7 @@
         }
         .main {
             height: auto;
-            padding: 3rem 1rem;
+            padding: 3rem 0rem;
             .container {
                 display: flex;
                 flex-direction: column;

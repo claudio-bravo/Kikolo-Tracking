@@ -2,6 +2,8 @@
     display: flex;
     width: 100%;
     height: max-content;
+    align-items: center;
+    flex-direction: column;
     background: linear-gradient(90deg, #fc0 0, #fc0 48%, #ffe57f 70%, #fff0b2);
     margin-bottom: 20px;
 
@@ -71,6 +73,7 @@
     @media screen and (max-width: 650px) {
         .container {
             width: 100%;
+            padding:  1rem 0px;
         }
     }
 

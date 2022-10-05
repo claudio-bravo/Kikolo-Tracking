@@ -4,7 +4,8 @@ import { TrackingHistory } from "./trackingHistory";
 export function Main() {
   return (
     <section className={styled.section}>
-      <h1 className={styled.title}>Siga a sua encomenda</h1>
+    <div id="containerMain">
+    <h1 className={styled.title}>Siga a sua encomenda</h1>
       <main className={styled.main}>
         <div className={styled.container}>
           <input type="text" placeholder="Insira o código de rastreio..."/>
@@ -14,6 +15,7 @@ export function Main() {
         </div>
       </main>
       <TrackingHistory />
+    </div>
     </section>
   );
 }

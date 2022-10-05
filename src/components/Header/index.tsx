@@ -4,6 +4,7 @@ import styled from "./styles.module.scss";
 export function Header() {
   return (
     <header className={styled.header}>
+      <div id="containerMain">
       <div className={styled.container}>
         <div className={styled.content}>
           <a href="/">
@@ -19,6 +20,7 @@ export function Header() {
             </span>
           </div>
         </div>
+      </div>
       </div>
     </header>
   );
