@@ -1,7 +1,7 @@
 import styled from "./styles.module.scss";
-import { TrackingHistory } from "./trackingHistory";
+import { History } from "./History";
 
-export function Main() {
+export function Tracking() {
   return (
     <section className={styled.section}>
     <div id="containerMain">
@@ -14,7 +14,7 @@ export function Main() {
           </button>
         </div>
       </main>
-      <TrackingHistory />
+      <History />
     </div>
     </section>
   );

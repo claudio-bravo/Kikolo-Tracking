@@ -1,6 +1,6 @@
 import styled from "./styles.module.scss";
 
-export function TrackingHistory() {
+export function History() {
   return (
     <section className={styled.trackingHistory}>
       <div className={styled.content}>

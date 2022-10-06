@@ -1,0 +1,97 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+
+    div {
+        .main {
+            width: 80%;
+            height: max-content;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 0;
+            
+            .firstcontainer {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                .contentDiv {
+                    width: 50%;
+                    .divSearch {
+                        width: 100%;
+                    }
+                    .divbox {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        .search {
+                            display: flex;
+                            width: 100%;
+                            max-width: 80%;
+                            input {
+                                width: 100%;
+                                background: #E4E6EB;
+                                padding: 0 0 0 1rem;
+                                border-radius: 8px 0px 0px 8px;
+                            }
+                            ::placeholder {
+                                font-size: 14px;
+                                color: black;
+                            }
+                            button {
+                                width: max-content;
+                                background: #FF9900;
+                                border-radius: 0px 8px 8px 0px;
+                                font-weight: bold;
+                                  
+                                :hover {
+                                    color: white;
+                                }
+                                svg {
+                                    padding: 10px;
+                                }
+                            }
+                    }
+
+                    .package {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                    }
+                    }
+                }
+    
+                .user {
+
+                }
+            }
+
+            .secondcontainer {
+
+            }
+        }
+    }
+    // @media screen and (max-width: 818px) {
+    //     .main {
+    //         .container {
+    //             max-width: 100%;
+    //         }
+    //     }  
+    // }
+
+    // @media screen and (max-width: 650px) {
+    //     .title {
+    //         font-size: 1.2rem;
+    //     }
+    //     .main {
+    //         height: auto;
+    //         padding: 3rem 0rem;
+            
+    //     }
+    // }
+    
+}
