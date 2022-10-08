@@ -12,6 +12,7 @@
     "@types/react-modal": "^3.13.1",
     "@types/sass": "^1.43.1",
     "@types/styled-components": "^5.1.26",
+    "formik": "^2.2.9",
     "next": "12.2.5",
     "phosphor-react": "^1.4.1",
     "react": "18.2.0",

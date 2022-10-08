@@ -34,7 +34,7 @@ export function Footer() {
             </div>
           </div>
           <div className={styled.text}>
-            <span>© 2022 Kikolo Onine TODOS OS DIREITOS RESERVADOS</span>
+            <span>© 2022 Kikolo Online TODOS OS DIREITOS RESERVADOS</span>
             <span className={styled.privacy}>Política de Privacidade</span>
           </div>
           <button type="button" onClick={scrollToTop} aria-label="scrollToTop">

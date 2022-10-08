@@ -8,6 +8,7 @@ export default class myDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="stylesheet" type="text/css" href="/css/duDatepicker.min.css"></link>
           <link
             href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
             rel="stylesheet"
@@ -19,6 +20,8 @@ export default class myDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script src="/js/duDatepicker.min.js"></script>
+          <script src="/js/script.js"></script>
         </body>
       </Html>
     );
